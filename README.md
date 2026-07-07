@@ -72,8 +72,26 @@ cp -R .claude/skills/fable-project ~/your-project/.claude/skills/fable-project
 Then in Claude Code: `/fable-project <your rough idea>` — see
 `.claude/skills/fable-project/README.md` for full install notes.
 
+## Screenshots
+
+| Discovery interview | Blind-spot pass |
+|---|---|
+| ![Discovery Questions](docs/screenshots/Discovery%20Questions.png) | ![Blind Spot Pass](docs/screenshots/Blind%20Spot%20Pass.png) |
+
+| Implementation plan | Fable session |
+|---|---|
+| ![Implementation Plan](docs/screenshots/Implementation%20Plan.png) | ![Fable Session](docs/screenshots/Fable%20Session.png) |
+
+### Final dashboard
+
+![Dashboard page 1](docs/screenshots/DashboardPg1.png)
+![Dashboard page 2](docs/screenshots/DashboardPg2.png)
+
+Full walkthrough in [`docs/screenshots/README.md`](docs/screenshots/README.md).
+
 ## Tech stack
 
+- Visual Studio Code - Claude Code for VS Code extension
 - [Claude Code](https://claude.com/claude-code) + Claude Fable 5
 - Python (standard library only — no pandas/numpy dependency for the renderer)
 - Inline SVG for charts, vanilla JS for tooltips/sorting (no frontend framework)
