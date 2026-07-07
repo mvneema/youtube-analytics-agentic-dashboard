@@ -1,0 +1,25 @@
+# --- Private analytics data: never commit real exports or generated output ---
+analytics/raw-csv/
+analytics/data.json
+analytics/report.html
+analytics/*_body.html
+!analytics/sample-data/
+!analytics/sample-data/report_sample.html
+
+# --- Credentials / secrets ---
+*.env
+.env.*
+client_secret*.json
+token.json
+credentials.json
+.claude/settings.local.json
+
+# --- OS / editor cruft ---
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+__pycache__/
+*.pyc
+
+# --- Node (if you add tooling later) ---
+node_modules/
